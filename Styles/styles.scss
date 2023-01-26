@@ -1,0 +1,30 @@
+@use "./_reset";
+@use "./buttons.scss";
+.calc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+    .calc-top{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 90%;
+        border: 5px solid blue;
+        margin: 1rem 0 1rem 0;
+    }
+    .calc-bottom{
+        display: flex;
+        justify-content: center;
+
+        .calc-bottom__container{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 90%;
+            border: 5px solid red;
+        }
+    }
+}
+
