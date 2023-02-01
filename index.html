@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="./Styles/styles.css" />
   </head>
   <body>
-    <main>
+    <main class="main">
       <div class="calc">
         <div class="calc-top">
-          <div class="calc-top__history"><p>history</p></div>
-          <div class="calc-top__output"><p>Curent OUTPUT</p></div>
+          <div class="calc-top__history">
+            <input type="text" class="calc-top--history-box" />
+          </div>
+          <div class="calc-top__output">
+            <input type="text" class="calc-top--output-box" />
+          </div>
         </div>
         <div class="calc-bottom">
           <div class="calc-bottom__container">
@@ -55,18 +59,25 @@
             <button class="calc-bottom--button calc-bottom--num-button">
               0
             </button>
-            <button class="calc-bottom--button calc-bottom--op-button">
+            <button class="calc-bottom--button calc-bottom--num-button">
               .
             </button>
-            <button class="calc-bottom--button calc-bottom--op-button">
+            <button class="calc-bottom--button calc-bottom--equals-button">
               =
             </button>
             <button class="calc-bottom--button calc-bottom--op-button">
               +
             </button>
+            <button class="calc-bottom--button calc-bottom--clear-button">
+              AC
+            </button>
+            <button class="calc-bottom--button calc-bottom--delete-button">
+              DEL
+            </button>
           </div>
         </div>
       </div>
     </main>
+    <script src="./app.js"></script>
   </body>
 </html>

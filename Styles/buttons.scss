@@ -1,6 +1,15 @@
 .calc-bottom--button{
-    width: 4rem;
-    height: 4rem;
+    background-color: #08080a15;
+    color: white;
+    border: 0;
     font-size: 2rem;
-    margin: 0 0 1rem 0;
-}
+    width:4rem;
+    height:4rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin: 0.25rem;
+    
+}.calc-bottom--button:hover{
+        cursor: pointer;
+        background-color: #c0c0d4;
+        color: black;
+    }
